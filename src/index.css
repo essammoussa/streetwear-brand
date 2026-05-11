@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: #0A0A0A; color: #FFFFFF; }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: #FFFFFF; }
+  ::-webkit-scrollbar-thumb { background: #C5C5C0; border-radius: 2px; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-black text-brand-white font-semibold text-sm tracking-widest uppercase px-8 py-3.5 transition-all duration-300 inline-block;
+  }
+  .btn-primary:hover {
+    background-color: #2A2A25;
+  }
+  .btn-outline {
+    @apply border border-brand-black text-brand-black font-semibold text-sm tracking-widest uppercase px-8 py-3.5 transition-all duration-300 hover:bg-brand-black hover:text-brand-white inline-block;
+  }
+}
