@@ -35,7 +35,7 @@ function Hero() {
             DEFINE
           </h1>
           <h1 className="font-display text-[clamp(4rem,12vw,10rem)] leading-none tracking-wider text-brand-gray-300 mb-8">
-            YOUR VOID
+            WAR OF LIFE
           </h1>
         </div>
         <div className={`flex flex-wrap gap-4 transition-all duration-1000 delay-500 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
@@ -211,7 +211,7 @@ function Newsletter() {
           Stay Connected
         </p>
         <h2 className="font-display text-5xl md:text-7xl tracking-wider text-brand-black mb-4">
-          JOIN THE VOID
+          JOIN WAR OF LIFE
         </h2>
         <p className="font-body text-brand-gray-500 text-base max-w-md mx-auto mb-10">
           Get early access to new drops, exclusive offers, and updates from behind the scenes.

@@ -1,4 +1,4 @@
-# VOIDWEAR - Streetwear Storefront
+# WAR OF LIFE - Streetwear Storefront
 
 A modern, high-performance, minimalist e-commerce storefront for a streetwear brand built with React, Vite, and Tailwind CSS.
 

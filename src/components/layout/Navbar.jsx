@@ -89,7 +89,7 @@ export default function Navbar() {
               showSolid ? "text-brand-black hover:text-brand-gray-600" : "text-brand-white hover:text-brand-gray-300"
             }`}
           >
-            VOIDWEAR
+            WAR OF LIFE
           </Link>
 
           {/* Right Icons */}

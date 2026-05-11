@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: "Void Oversized Tee",
+    name: "War of Life Oversized Tee",
     price: 89,
     category: "T-Shirts",
     collection: "SS25",

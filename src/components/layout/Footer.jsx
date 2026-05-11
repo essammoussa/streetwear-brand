@@ -19,7 +19,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-2">
           <Link to="/" className="font-display text-4xl tracking-wider text-white block mb-4">
-            VOIDWEAR
+            WAR OF LIFE
           </Link>
           <p className="text-brand-gray-400 text-sm leading-relaxed max-w-xs font-body">
             Streetwear for the undefined generation. Quality without compromise. Identity without labels.
@@ -67,7 +67,7 @@ export default function Footer() {
 
       <div className="border-t border-brand-gray-700 py-6 px-6 max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="font-mono text-xs text-brand-gray-400 tracking-wider">
-          © 2025 VOIDWEAR. ALL RIGHTS RESERVED.
+          © 2025 WAR OF LIFE. ALL RIGHTS RESERVED.
         </p>
         <p className="font-mono text-xs text-brand-gray-600 tracking-wider">
           CRAFTED WITH PRECISION
